@@ -5,8 +5,7 @@ const usersRouter = require('./routes/usersRouter');
 const router = Router();
 
 router.use('/phones', phonesRouter);
-// Вынести в usersRouter
-// '/api/users'
+
 router.use('/users', usersRouter);
 
 module.exports = router;
